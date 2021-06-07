@@ -14,7 +14,9 @@ body{
     height: 100%;
     background-image: url(assets/bg1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
+    max-height: 1130px;
+    max-width: 2543px;  
 }
 .w3-card-4{
     position: relative;
@@ -75,7 +77,29 @@ body{
 }
 .about-card > h3 {
 position: relative;
-bottom: 50px;
+bottom: 20px;
 left: 500px;
 line-height:200%;
 }
+#about1{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    background-color:black;
+    color: white;
+}
+#about2{
+    position: relative;
+    left: 1000px;
+    bottom: 560px;
+    background-color:black;
+    color: white;
+}
+#about3{
+    position: relative;
+    left: 1400px;
+    bottom: 960px;
+    background-color:black;
+    color: white;
+}
+
