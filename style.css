@@ -108,16 +108,18 @@ line-height:200%;
 }
 .contact-text{
     position: relative;
-    left: 400px;
     padding-top: 40px;
+    bottom: 50px
 }
 .input {
     position: relative;
 }
 .contact-box{
+    margin-top: 100px;
     position:relative;
-    left: 400px;
-    top: 100px;
+    right: 200px;
+    border: 1px solid black;
+    top: 200px;
 }
 input[type=text], select, textarea{
     width: 100%;
@@ -145,7 +147,7 @@ input[type=text], select, textarea{
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 40px;
   }
   
   .col-25 {
