@@ -106,4 +106,22 @@ line-height:200%;
     background-color:black;
     color: white;
 }
+.contact-text{
+    position: relative;
+    left: 400px;
+    padding-top: 15px;
+}
+.contact-button{
+    position: relative;
+    top: 400px;
+    left: 410px;
+}
+.input {
+    position: relative;
+}
+.contact-box{
+    position:relative;
+    left: 400px;
+    top: 100px;
+}
 
