@@ -11,12 +11,14 @@
     
 }
 body{
+    position: relative;
     height: 100%;
     background-image: url(assets/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 1130px;
-    max-width: 2543px;  
+    max-width: 2543px;
+    z-index: -1;
 }
 .w3-card-4{
     position: relative;
@@ -36,11 +38,12 @@ body{
     
     
 }
-.w3-container>h5 {
+.w3-container>h3 {
     position: relative;
     left: 400px;
     bottom: 20px;
 }
+
 .info-button{
     position:relative;
     left: 400px;
@@ -61,7 +64,8 @@ body{
 }
 .project-card{
     position:relative;
-    left:450px; 
+    left:450px;
+    z-index: -1; 
 }
 .project{
     margin-top: 50px;
