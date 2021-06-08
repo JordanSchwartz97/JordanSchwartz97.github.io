@@ -26,34 +26,38 @@ body{
     margin-left:100px;
     position:relative;
     z-index:-1;
-    
     color: white;
 }
 .info-text{
-    margin-left: 400px;
+    position: relative;
+    left: 400px;
+    line-height: 150%;
     padding-bottom: 40px;
     
     
 }
-.info-message{
-    margin-left: 400px;
+.w3-container>h5 {
+    position: relative;
+    left: 400px;
+    bottom: 20px;
 }
 .info-button{
-    margin-left: 400px;
+    position:relative;
+    left: 400px;
     margin-top: 10px;
 }
 
-.promotion-pic{
-    height:70%;
-    width:70%;
+#promotion-pic{
+    height:80%;
+    width:60%;
     position: relative;
-    left: 1400px;
-    bottom: 400px; 
+    left: 1200px;
+    bottom: 450px; 
 }
 .author{
     position: relative;
-    left: 1800px;
-    bottom: 100px;
+    left: 2200px;
+    bottom: 50px;
 }
 .project-card{
     position:relative;
@@ -84,21 +88,21 @@ line-height:200%;
 #about1{
     position: relative;
     left: 600px;
-    bottom: 150px;
+    bottom: 250px;
     background-color:black;
     color: white;
 }
 #about2{
     position: relative;
     left: 1000px;
-    bottom: 560px;
+    bottom: 660px;
     background-color:black;
     color: white;
 }
 #about3{
     position: relative;
     left: 1400px;
-    bottom: 960px;
+    bottom: 1060px;
     background-color:black;
     color: white;
 }
