@@ -1,15 +1,25 @@
-.w3-bar{
-    background-color: black;
-    border-style: solid;
-    border-color: black;
-}
-
-.w3-bar-item{
-    background-color: black;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
     color: white;
-    margin-left: 25px;
-    
-}
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
 body{
     position: relative;
     height: 100%;
@@ -26,7 +36,6 @@ body{
     width: 45%;
     margin-top:300px;
     margin-left:100px;
-    position:relative;
     z-index:-1;
     color: white;
 }
@@ -39,7 +48,7 @@ body{
     
 }
 .w3-container>h3 {
-    position: relative;
+    position: relative; 
     left: 400px;
     bottom: 20px;
 }
@@ -93,22 +102,25 @@ line-height:200%;
     position: relative;
     left: 600px;
     bottom: 250px;
-    background-color:black;
+    background-color:rgb(36, 36, 36);
     color: white;
+    
 }
 #about2{
     position: relative;
     left: 1000px;
     bottom: 660px;
-    background-color:black;
+    background-color:rgb(36, 36, 36);
     color: white;
+    
 }
 #about3{
     position: relative;
     left: 1400px;
     bottom: 1060px;
-    background-color:black;
+    background-color:rgb(36, 36, 36);
     color: white;
+    
 }
 .contact-text{
     position: relative;
@@ -186,4 +198,27 @@ input[type=text], select, textarea{
       position: relative;
       bottom: 10px;
   }
- 
+  .contact-submit-button{
+      color:black;
+      position: relative;
+      left: 530px;
+      top:160px;  
+      padding-right: 5px;
+  }
+ .thanks-card{
+     color: white;
+     position: relative;
+     top: 300px;
+     left: 500px;
+     max-width: 800px;
+     padding-bottom: 200px;
+ }
+ .thanks-card > h1{
+     line-height: 150%;
+ }
+ .thanks-card > h4{
+    line-height: 200%;
+}
+.thanks-button{
+    font-size: 20px;
+}
