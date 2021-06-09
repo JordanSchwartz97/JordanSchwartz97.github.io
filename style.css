@@ -66,27 +66,24 @@ body{
     left: 1200px;
     bottom: 450px; 
 }
-.author{
-    position: relative;
-    left: 2200px;
-    bottom: 50px;
-}
+
 .project-card{
     position:relative;
     left:450px;
-    z-index: -1; 
+    z-index: -1;
+    
 }
 .project{
     margin-top: 50px;
     line-height: 50px;
 }
 .carousel-project-card{
-    left:1400px;
-    bottom:770px;  
     position: relative;
-    width: 1000px;
-    margin-bottom: 50px;
+    left: 1400px;
+    bottom: 800px;
+    max-width: 1000px;
 }
+
 .about-card > h1 {
  position:relative;
  bottom:100px;
